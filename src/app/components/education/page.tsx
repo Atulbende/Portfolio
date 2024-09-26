@@ -18,7 +18,7 @@ export default function Education() {
             viewport={{
                 once: false
             }}
-            id=' ' className="home-div mt-5 scroll-mt-28">
+            id='education' className="home-div mt-5 scroll-mt-28">
             <div className='flex justify-center'><h1 className='text-grey-500 bg-white  rounded-full px-5 py-2'>Education</h1></div>
             <section className="profile-pic m-auto">
                 <VerticalTimeline>
