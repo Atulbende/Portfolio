@@ -15,7 +15,7 @@ app.prepare().then(() => {
   // Create WebSocket server
   const io = new Server(server, {
     cors: {
-      origin: ["http://localhost:3000","http://localhost:3001","https://portfolio-hn16.vercel.app"], // Replace with your frontend URL
+      origin: ["http://localhost:3000","http://localhost:3001","https://portfolio-hn16.vercel.app","https://portfolio-atul-s-projects-b035b0ba.vercel.app"], // Replace with your frontend URL
       methods: ["GET", "POST"],
       allowedHeaders: ["my-custom-header"],
       credentials: true
