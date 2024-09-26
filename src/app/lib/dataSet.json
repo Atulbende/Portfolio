@@ -1,0 +1,18 @@
+[
+    { "id": 1,
+      "info": "Atul Bende",
+      "description": "I'm a Software Engineer with 5 year of experience. i enjoy building customize application in different domains my focus is in React(Nextjs + AI) for good user experince"
+    },
+    { "id": 2,
+        "info": "Experience",
+        "description": "Experienced software professional with 5 years of expertise in software coding, analysis, design, and planning. Skilled in developing user-friendly UI and proficient in  ReactJs(4.5 year), NodeJs(2.5 year), JavaScript(5 year), HTML5, CSS3, and Bootstrap4, git, github. Strong track record of customer interaction involving technical consulting,solution design, planning, development, and deployment. Proficient in Object-Oriented Languages like C++. Collaborates closely with teams to support projects throughout all phases of delivery, while also conducting testing to identify and document bugs and technical issues."
+    },
+    { "id": 3,
+    "info": "hobby",
+    "description": "when i'm not coding, i enjoy gyming, playing Cricket, watching Movies, and play with animal(cow,dog). i also enjoy learning new things. new business idea. and when i have a lot of time then i love to go solo traveling. i'm playing guiter in free time"
+    },
+    { "id": 4,
+        "info": "Education",
+        "description": "I have completed my graduction in BCA and post Graducation in MSC IT in 2014 and 2016"
+        }
+]
