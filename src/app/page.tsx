@@ -34,7 +34,7 @@ useEffect(()=>{
               </span>
             
               </div>
-    </Suspense>
+   
 
       <Header />
       <Profile />
@@ -43,6 +43,7 @@ useEffect(()=>{
       <Skills />
       <Contact />
       <Footer />
+      </Suspense>
     </>
   );
 }
