@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body  className={'pt-32 sm:pt-18 '}>
-        <Suspense>
+        <Suspense fallback={<>loading...</>}>
              {children}
         </Suspense>
         </body>
