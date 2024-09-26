@@ -220,6 +220,9 @@ text-align: left;
   );
 
 }
+.vertical-timeline-element-content{
+  background:radial-gradient(78.57% 78.57% at 50.65% 0.84%,#e9d5ff 0%,#8383fd 0%,rgba(135, 160, 219, 0) 100%)!important;
+}
 
 .menu-list {
 

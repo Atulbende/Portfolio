@@ -11,7 +11,7 @@ interface Item {
   message?: string | undefined;
 }
 function Chat({urlParam}:any) {
-  const sockets =useMemo(()=>{return (io('http://localhost:3001', { withCredentials: true }));},[]);
+  const sockets =useMemo(()=>{return (io('https://portfolio-hn16.vercel.app', { withCredentials: true }));},[]);
   const [chatHistory, setChatHistory] = useState<Item[]>([]);
   const [senderMessage, setSenderMessage] = useState('');
   const chatContainerRef = useRef<HTMLDivElement>(null); // Ref for the chat container
@@ -62,7 +62,7 @@ const sentMessage=async(e: React.FormEvent<HTMLFormElement>) => {
     if(isChat){
         const id=sessionStorage.getItem('me');
         sessionStorage.removeItem('isChat');
-        const res =await sendMessageToHost(senderMessage,`http://localhost:3001/?url=${id}`);
+        const res =await sendMessageToHost(senderMessage,`https://portfolio-hn16.vercel.app/?url=${id}`);
     }
   }
  
