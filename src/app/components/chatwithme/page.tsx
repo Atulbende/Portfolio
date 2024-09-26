@@ -1,3 +1,5 @@
+
+'use client';
 import React, { useEffect, useState, useRef, useMemo } from 'react';
 import { FaPaperPlane } from "react-icons/fa";
 import { IoChatbubbleEllipses } from "react-icons/io5";
