@@ -37,7 +37,7 @@ app.prepare().then(() => {
     });
   });
   // Listen on port 3000
-  server.listen(3001, (err) => {
+  server.listen(process.env.PORT || 8000, (err) => {
     // if (err) throw err;
     console.log("> Server is running on http://localhost:3001");
   });

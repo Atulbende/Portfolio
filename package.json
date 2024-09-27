@@ -4,7 +4,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "concurrently \"next dev\" \"nodemon server.js\"",
     "build": "next build",
     "start": "nodemon server.js",
     "lint": "next lint"
@@ -12,6 +12,8 @@
   "dependencies": {
     "@datastax/astra-db-ts": "^1.4.1",
     "ai": "^3.3.37",
+    "concurrently": "^9.0.1",
+    "cross-env": "^7.0.3",
     "dotenv": "^16.4.5",
     "framer-motion": "^11.3.24",
     "git": "^0.1.5",
